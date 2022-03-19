@@ -1,3 +1,3 @@
-Test Project for Challenge 2 
+DS Store
 
 order.html
