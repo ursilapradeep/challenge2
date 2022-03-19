@@ -1,3 +1,2 @@
-DS Store
+This is order_summary challenge
 
-order.html
