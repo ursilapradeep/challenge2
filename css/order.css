@@ -1,0 +1,138 @@
+body {
+  background-image: url("../images/bac.svg");
+  background-repeat: no-repeat;
+  background-color:hsl(225, 100%, 94%);
+  margin-top:50px;
+}
+@font-face {
+  font-family:RedHatDisplay;
+  src: url(../font/RedHatDisplay/RedHatDisplay-VariableFont_wght.ttf);
+}
+.main{
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+  }
+}
+.dance img
+  {
+    display:block;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius:30px 30px 0px 0px;
+    width:500px;
+  }
+.dance{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px 30px 30px 30px;
+  height:700px;
+  width:500px;  
+ }
+ .text_class{
+   display: block;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   }
+  #main_text{
+    font-family:RedHatDisplay;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ #summary{
+    font-family:RedHatDisplay;
+    font-size: 16px;
+    font-weight:500px;
+    color: hsl(220, 15%, 55%); 
+ }
+ /*.container
+ {
+ 
+ align-items: left;
+ justify-content: left;
+  }*/
+
+ .container{
+   display: block;
+   margin-right:auto;
+   margin-left:auto;
+   background-color:hsl(225, 100%, 98%);
+   border-radius:20px;
+   width: 350px;
+   height:100px;
+   
+ }
+.container img{
+  display:block;
+  margin-left:30px;
+  margin-top:10px;
+  padding-top:20px;
+  width:auto;
+  height:auto;
+}
+
+  .text{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  transform: translate(25%, -60%);
+  }
+   .sub_text{
+   padding-top: 30px;
+   text-align:justify;   
+   font-size: 14px;
+   font-weight: bold;
+  }
+
+  .price{
+   text-align:justify;
+   padding-bottom:60px;
+   padding-top:5px;
+   font-size: 14px;
+   font-weight:normal;
+   color: hsl(220, 15%, 55%);
+  }
+  .change{
+    display:block;
+    text-align:end right;
+    transform: translate(70px,-900%);
+    
+  }
+  a.cursor{
+    font-size: 14px;
+   font-weight:20px;
+  }
+.button{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+  border-radius:10px 10px 10px 10px;
+  box-shadow:0 15px 20px rgba(120, 102, 204, 0.671);
+  background-color:rgba(106, 17, 250, 0.897);
+  width: 350px;
+  height:40px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  }
+.delete{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top: 10px;
+  text-align: center;
+  font-family:RedHatDisplay;
+  font-weight: bold;
+  font-size: 16px;
+}
